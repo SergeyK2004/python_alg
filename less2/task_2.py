@@ -14,6 +14,6 @@ while num > 0:
     else:
         odd = odd + str(digit) + ','
 print(f'Четные цифры: {even}')
-print(f'Количество четных: {len(even)}')
+print(f'Количество четных: {len(even) / 2}')
 print(f'Нечетные цифры: {odd}')
-print(f'Количество нечетных: {len(odd)}')
+print(f'Количество нечетных: {len(odd) / 2}')
